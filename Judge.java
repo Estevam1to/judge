@@ -85,7 +85,7 @@ public class Judge {
             if(pasta.isDirectory() && pasta.exists()) {
                 File[] files = pasta.listFiles();
                 for(File file : files) {
-                    if(file.getName().endsWith(".out")) outputsUser.add(file);
+                    outputsUser.add(file);
                 }
             }
         }
